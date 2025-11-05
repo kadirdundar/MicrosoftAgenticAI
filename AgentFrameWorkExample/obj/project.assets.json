@@ -1491,7 +1491,7 @@
     ]
   },
   "packageFolders": {
-    "/Users/kadirdundar/.nuget/packages/": {}
+    "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1499,7 +1499,7 @@
       "projectUniqueName": "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/AgentFrameWorkExample.csproj",
       "projectName": "AgentFrameWorkExample",
       "projectPath": "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/AgentFrameWorkExample.csproj",
-      "packagesPath": "/Users/kadirdundar/.nuget/packages/",
+      "packagesPath": "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline",
       "outputPath": "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
