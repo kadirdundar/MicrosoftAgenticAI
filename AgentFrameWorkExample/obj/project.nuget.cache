@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "60YmjYF3cCI=",
+  "dgSpecHash": "e0RggGTd9G0=",
   "success": true,
   "projectFilePath": "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/AgentFrameWorkExample.csproj",
   "expectedPackageFiles": [
@@ -11,8 +11,8 @@
     "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline/microsoft.extensions.ai.abstractions/9.10.1/microsoft.extensions.ai.abstractions.9.10.1.nupkg.sha512",
     "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline/microsoft.extensions.ai.ollama/9.3.0-preview.1.25161.3/microsoft.extensions.ai.ollama.9.3.0-preview.1.25161.3.nupkg.sha512",
     "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline/microsoft.extensions.caching.abstractions/9.0.10/microsoft.extensions.caching.abstractions.9.0.10.nupkg.sha512",
-    "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline/microsoft.extensions.configuration/9.0.4/microsoft.extensions.configuration.9.0.4.nupkg.sha512",
-    "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline/microsoft.extensions.configuration.abstractions/9.0.4/microsoft.extensions.configuration.abstractions.9.0.4.nupkg.sha512",
+    "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline/microsoft.extensions.configuration/9.0.10/microsoft.extensions.configuration.9.0.10.nupkg.sha512",
+    "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline/microsoft.extensions.configuration.abstractions/9.0.10/microsoft.extensions.configuration.abstractions.9.0.10.nupkg.sha512",
     "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline/microsoft.extensions.configuration.binder/9.0.4/microsoft.extensions.configuration.binder.9.0.4.nupkg.sha512",
     "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline/microsoft.extensions.dependencyinjection/9.0.4/microsoft.extensions.dependencyinjection.9.0.4.nupkg.sha512",
     "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline/microsoft.extensions.dependencyinjection.abstractions/9.0.10/microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg.sha512",
@@ -23,7 +23,7 @@
     "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline/microsoft.extensions.logging.abstractions/9.0.10/microsoft.extensions.logging.abstractions.9.0.10.nupkg.sha512",
     "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline/microsoft.extensions.logging.configuration/9.0.4/microsoft.extensions.logging.configuration.9.0.4.nupkg.sha512",
     "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline/microsoft.extensions.logging.console/9.0.4/microsoft.extensions.logging.console.9.0.4.nupkg.sha512",
-    "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline/microsoft.extensions.options/9.0.4/microsoft.extensions.options.9.0.4.nupkg.sha512",
+    "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline/microsoft.extensions.options/9.0.10/microsoft.extensions.options.9.0.10.nupkg.sha512",
     "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline/microsoft.extensions.options.configurationextensions/9.0.4/microsoft.extensions.options.configurationextensions.9.0.4.nupkg.sha512",
     "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline/microsoft.extensions.primitives/9.0.10/microsoft.extensions.primitives.9.0.10.nupkg.sha512",
     "/Users/kadirdundar/Desktop/AgentFrameWorkExample/AgentFrameWorkExample/packages_offline/modelcontextprotocol/0.1.0-preview.4/modelcontextprotocol.0.1.0-preview.4.nupkg.sha512",
