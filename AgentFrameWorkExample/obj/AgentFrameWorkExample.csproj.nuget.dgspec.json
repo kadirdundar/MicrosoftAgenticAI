@@ -96,7 +96,7 @@
             },
             "OllamaSharp": {
               "target": "Package",
-              "version": "[5.4.8, )"
+              "version": "[5.4.11, )"
             }
           },
           "imports": [

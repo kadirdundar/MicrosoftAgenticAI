@@ -84,8 +84,11 @@
           }
         }
       },
-      "Microsoft.Extensions.AI.Abstractions/9.10.1": {
+      "Microsoft.Extensions.AI.Abstractions/10.0.0": {
         "type": "package",
+        "dependencies": {
+          "System.Text.Json": "10.0.0"
+        },
         "compile": {
           "lib/net9.0/Microsoft.Extensions.AI.Abstractions.dll": {
             "related": ".xml"
@@ -457,10 +460,10 @@
           }
         }
       },
-      "OllamaSharp/5.4.8": {
+      "OllamaSharp/5.4.11": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.AI.Abstractions": "9.10.0"
+          "Microsoft.Extensions.AI.Abstractions": "10.0.0"
         },
         "compile": {
           "lib/net9.0/OllamaSharp.dll": {
@@ -498,6 +501,22 @@
         },
         "runtime": {
           "lib/net9.0/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.IO.Pipelines/10.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.IO.Pipelines.dll": {
             "related": ".xml"
           }
         },
@@ -553,8 +572,38 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "System.Text.Json/9.0.3": {
+      "System.Text.Encodings.Web/10.0.0": {
         "type": "package",
+        "compile": {
+          "lib/net9.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll": {
+            "assetType": "runtime",
+            "rid": "browser"
+          },
+          "runtimes/win/lib/net9.0/System.Text.Encodings.Web.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Text.Json/10.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "10.0.0",
+          "System.Text.Encodings.Web": "10.0.0"
+        },
         "compile": {
           "lib/net9.0/System.Text.Json.dll": {
             "related": ".xml"
@@ -656,15 +705,17 @@
         "microsoft.extensions.ai.nuspec"
       ]
     },
-    "Microsoft.Extensions.AI.Abstractions/9.10.1": {
-      "sha512": "e31P/WT7Pgx/9P6HNBUGEO0v9XyuZj6Dbekz4XeaP6v4GQ7jK1AllBiNTu1k2zx2x6upSeAmA6sRp6C2BgmMwQ==",
+    "Microsoft.Extensions.AI.Abstractions/10.0.0": {
+      "sha512": "PHeuDm2tC6wJPEQvleUr2kNQaIMNqSf3aEbzkIPlZyQ0+0SYI9SwXVLdGD1NPBI+xB+Vb2lxZKhrFlIf9kP9WA==",
       "type": "package",
-      "path": "microsoft.extensions.ai.abstractions/9.10.1",
+      "path": "microsoft.extensions.ai.abstractions/10.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "README.md",
+        "lib/net10.0/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/net10.0/Microsoft.Extensions.AI.Abstractions.xml",
         "lib/net462/Microsoft.Extensions.AI.Abstractions.dll",
         "lib/net462/Microsoft.Extensions.AI.Abstractions.xml",
         "lib/net8.0/Microsoft.Extensions.AI.Abstractions.dll",
@@ -673,7 +724,7 @@
         "lib/net9.0/Microsoft.Extensions.AI.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.AI.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.AI.Abstractions.xml",
-        "microsoft.extensions.ai.abstractions.9.10.1.nupkg.sha512",
+        "microsoft.extensions.ai.abstractions.10.0.0.nupkg.sha512",
         "microsoft.extensions.ai.abstractions.nuspec"
       ]
     },
@@ -1240,10 +1291,10 @@
         "modelcontextprotocol.nuspec"
       ]
     },
-    "OllamaSharp/5.4.8": {
-      "sha512": "5hW16lUaNGT+27aWlEPRh9VsX9b9cmLHkVJ4jUGVqpSFFSn6up5PJW3dJkvx7uJi1JUV8+IAj7aSp5NV55CIYg==",
+    "OllamaSharp/5.4.11": {
+      "sha512": "DPjkWbgZOb/y5jv+iNlGdFbJd0pWS3vllXJuttfNZcphfai7BHZBVKfWcN9azs15F7Fgeb4eGjB/CH+WEC/QIw==",
       "type": "package",
-      "path": "ollamasharp/5.4.8",
+      "path": "ollamasharp/5.4.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1251,6 +1302,8 @@
         "Ollama.png",
         "README.md",
         "analyzers/dotnet/cs/OllamaSharp.SourceGenerators.dll",
+        "lib/net10.0/OllamaSharp.dll",
+        "lib/net10.0/OllamaSharp.xml",
         "lib/net8.0/OllamaSharp.dll",
         "lib/net8.0/OllamaSharp.xml",
         "lib/net9.0/OllamaSharp.dll",
@@ -1259,7 +1312,7 @@
         "lib/netstandard2.0/OllamaSharp.xml",
         "lib/netstandard2.1/OllamaSharp.dll",
         "lib/netstandard2.1/OllamaSharp.xml",
-        "ollamasharp.5.4.8.nupkg.sha512",
+        "ollamasharp.5.4.11.nupkg.sha512",
         "ollamasharp.nuspec"
       ]
     },
@@ -1318,6 +1371,35 @@
         "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.xml",
         "system.diagnostics.diagnosticsource.9.0.10.nupkg.sha512",
         "system.diagnostics.diagnosticsource.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.IO.Pipelines/10.0.0": {
+      "sha512": "M1eb3nfXntaRJPrrMVM9EFS8I1bDTnt0uvUS6QP/SicZf/ZZjydMD5NiXxfmwW/uQwaMDP/yX2P+zQN1NBHChg==",
+      "type": "package",
+      "path": "system.io.pipelines/10.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.IO.Pipelines.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.IO.Pipelines.targets",
+        "lib/net10.0/System.IO.Pipelines.dll",
+        "lib/net10.0/System.IO.Pipelines.xml",
+        "lib/net462/System.IO.Pipelines.dll",
+        "lib/net462/System.IO.Pipelines.xml",
+        "lib/net8.0/System.IO.Pipelines.dll",
+        "lib/net8.0/System.IO.Pipelines.xml",
+        "lib/net9.0/System.IO.Pipelines.dll",
+        "lib/net9.0/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.10.0.0.nupkg.sha512",
+        "system.io.pipelines.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -1407,15 +1489,51 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Json/9.0.3": {
-      "sha512": "r2JRkLjsYrq5Dpo7+y3Wa73OfirZPdVhxiTJWwZ+oJM7FOAe0LkM3GlH+pgkNRdd1G1kwUbmRCdmh4uoaWwu1g==",
+    "System.Text.Encodings.Web/10.0.0": {
+      "sha512": "257hh1ep1Gqm1Lm0ulxf7vVBVMJuGN6EL4xSWjpi46DffXzm1058IiWsfSC06zSm7SniN+Tb5160UnXsSa8rRg==",
       "type": "package",
-      "path": "system.text.json/9.0.3",
+      "path": "system.text.encodings.web/10.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Text.Encodings.Web.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Text.Encodings.Web.targets",
+        "lib/net10.0/System.Text.Encodings.Web.dll",
+        "lib/net10.0/System.Text.Encodings.Web.xml",
+        "lib/net462/System.Text.Encodings.Web.dll",
+        "lib/net462/System.Text.Encodings.Web.xml",
+        "lib/net8.0/System.Text.Encodings.Web.dll",
+        "lib/net8.0/System.Text.Encodings.Web.xml",
+        "lib/net9.0/System.Text.Encodings.Web.dll",
+        "lib/net9.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "runtimes/browser/lib/net10.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net10.0/System.Text.Encodings.Web.xml",
+        "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.xml",
+        "runtimes/wasi/lib/net10.0/System.Text.Encodings.Web.dll",
+        "runtimes/wasi/lib/net10.0/System.Text.Encodings.Web.xml",
+        "runtimes/win/lib/net9.0/System.Text.Encodings.Web.dll",
+        "runtimes/win/lib/net9.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.10.0.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Text.Json/10.0.0": {
+      "sha512": "1Dpjwq9peG/Wt5BNbrzIhTpclfOSqBWZsUO28vVr59yQlkvL5jLBWfpfzRmJ1OY+6DciaY0DUcltyzs4fuZHjw==",
+      "type": "package",
+      "path": "system.text.json/10.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
         "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
         "analyzers/dotnet/roslyn3.11/cs/System.Text.Json.SourceGeneration.dll",
@@ -1465,6 +1583,8 @@
         "buildTransitive/net8.0/System.Text.Json.targets",
         "buildTransitive/netcoreapp2.0/System.Text.Json.targets",
         "buildTransitive/netstandard2.0/System.Text.Json.targets",
+        "lib/net10.0/System.Text.Json.dll",
+        "lib/net10.0/System.Text.Json.xml",
         "lib/net462/System.Text.Json.dll",
         "lib/net462/System.Text.Json.xml",
         "lib/net8.0/System.Text.Json.dll",
@@ -1473,7 +1593,7 @@
         "lib/net9.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.9.0.3.nupkg.sha512",
+        "system.text.json.10.0.0.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1493,7 +1613,7 @@
       "Microsoft.Extensions.Options >= 9.0.10",
       "Microsoft.Extensions.Primitives >= 9.0.10",
       "ModelContextProtocol >= 0.1.0-preview.4",
-      "OllamaSharp >= 5.4.8"
+      "OllamaSharp >= 5.4.11"
     ]
   },
   "packageFolders": {
@@ -1591,7 +1711,7 @@
           },
           "OllamaSharp": {
             "target": "Package",
-            "version": "[5.4.8, )"
+            "version": "[5.4.11, )"
           }
         },
         "imports": [
